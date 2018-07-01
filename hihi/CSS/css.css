@@ -1,0 +1,258 @@
+*{
+	margin:0;
+	padding: 0;
+}
+/*	part1*/
+.part1Back{
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("../images/hero-bg.jpg");
+	background-attachment: fixed;
+	background-position: center;
+}
+.part1Content{
+	width: 100%;
+	background: rgba(0,0,0,70%);
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: white;
+	padding: 30px;
+}
+.content1{
+	width: 100%;
+	margin-top: 50px;
+}
+hr{
+	border: 0.5px solid mediumvioletred;
+	width: 3em;
+}
+.box{
+	width: 100%;
+	height: 80px;
+	text-align: right;
+	line-height: 80px;
+	padding: 20px;
+}
+.box:hover{
+	background-color: gold;
+	opacity: 0.5;
+	border-radius: 15px;
+}
+.footer{
+	margin-top: 250px;
+}
+.boxmain{
+	float: right;
+	width: 100%;
+}
+.boxFooter{
+	display: inline-block;
+	width: 15%;
+	height: 50px;
+	border-bottom: none;
+	text-align: center;
+}
+.boxFooter:hover{
+	border-bottom: 1px white solid;
+}
+.boxFooter2{
+	display: inline-block;
+	color: white;
+}
+.header1{
+	display: inline-block;
+}
+.header2{
+	display: inline-block;
+	float: right;
+}
+.word{
+	font-size: 4vh;
+	margin: 50px;
+}
+/*part2*/
+
+.part2{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mainPart2{
+	width: 100%;
+	padding: 80px;
+}
+.detailPart2{
+	width: 100%;
+}
+.titleBox{
+	width: 100%;
+	height: 50px;
+}
+.numberBox{
+	background: mediumturquoise;
+	border-radius: 50%;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	color: white;
+	line-height: 50px;
+	font-weight: bold;
+	display: inline-block;
+}
+.title{
+	display: inline-block;
+	font-size: 2em;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 20px;
+}
+.detailBox{
+	border-left: 1px solid;
+	margin-left: 25px;
+	margin-top: 20px;
+	padding-left: 10px;
+}
+
+/*part3*/
+
+.part3{
+	width: 100%;
+	background:whitesmoke;
+}
+.mainPart3{
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.box3{
+	width: 100%;
+	height: 250px;
+}
+
+/*part4*/
+
+.part4{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#pic1 {
+	background-image: url(../images/portfolio/gallery/g-salad.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	position: relative;
+}
+#pic2 {
+	background-image: url(../images/portfolio/gallery/g-fuji.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	position: relative;
+}
+#pic3 {
+	background-image: url(../images/portfolio/gallery/g-liberty.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	position: relative;
+}
+#pic4 {
+	background-image: url(../images/portfolio/gallery/g-woodcraft.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	position: relative;
+}
+#pic5 {
+	background-image: url(../images/portfolio/gallery/g-lamp.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	position: relative;
+}
+#pic6 {
+	background-image: url(../images/portfolio/gallery/g-shutterbug.jpg);
+	width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	position: relative;
+}
+.footPart4{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.marginPart4{
+	margin-bottom: 50px;
+	margin-top: 50px;
+}
+.contentPic{
+	position: absolute;
+	width: 90%;
+	top: 0;
+	left: 20px;
+	display: none;
+}
+.picHover:hover .contentPic{
+	display: block;
+}
+.picHover:hover .opaPic{
+	opacity: 0.5;
+}
+.title4{
+	text-align: center;
+}
+.ava{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  clear: both;
+  width: 60%;
+  margin-right:auto;
+  margin-left: auto;
+}
+.hihi{
+	display: inline-block;
+}
+.picAva{
+	width: 80px;
+	height: 80px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url(../images/avatars/user-02.jpg);
+	border-radius: 50%;
+	display: inline-block;
+}
+.quote{
+	display: inline-block;
+}
+
+.part6{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	background: black;
+	padding: 100px;
+}
+.line{
+	border: 2px solid mediumvioletred;
+	width: 200px;
+}
+.a:hover{
+	color: gold;
+}
