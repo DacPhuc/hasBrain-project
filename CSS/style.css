@@ -55,7 +55,7 @@
     left: 0;
     color: white;
     justify-content: center;
-    background: rgba(0,0,0,50%);
+    background: rgba(0,0,0,40%);
 }
 .pannel > div{
     width: 60%;
@@ -78,4 +78,73 @@
 }
 .btw:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* part 2 */
+.intro{
+    color: white;
+    background: #302939;
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+}
+.introMain{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* part 3 */
+.part3{
+    width: 100%;
+    padding-top: 50px;
+}
+.part3Body{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.p3pic1{
+    background-image: url('../images/about.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 415px;
+}
+.p3pic2{
+    background-image: url('../images/about-2.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 415px;
+}
+.pic1{
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+.pic2{
+    padding-bottom: 40px;
+}
+/* part4 */
+.part4{
+    width: 100%;
+    margin-top: 200px;
+}
+.p4Content{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p4Head{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: black;
+}
+.p4Pic{
+    display: flex;
+    flex-wrap: wrap;
 }
