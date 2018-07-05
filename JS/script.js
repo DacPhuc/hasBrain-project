@@ -9,5 +9,13 @@ function slideshow() {
     myIndex++;
     if (myIndex > x.length) {myIndex = 1}    
     x[myIndex-1].style.display = "block";  
-    setTimeout(slideshow, 2000); // Change image every 2 seconds
+    setTimeout(slideshow, 2000);
+}
+function a(){
+    var a=querySelector('#menu1');
+    a.style.display='block';
+}
+function b(){
+    var b=querySelector('#menu2');
+    b.style.display='block';
 }
