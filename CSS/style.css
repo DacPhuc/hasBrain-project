@@ -63,7 +63,8 @@
     border: 0.5px solid white;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20%;
+    margin-top: 10%;
+    padding: 10px;
 } 
 .btw{
     border-radius: 15px;
@@ -302,6 +303,11 @@
     margin-left: auto;
     margin-top: 40px;
 }
+.category button{
+    width: 100px;
+    border: none;
+    
+}
 .p8Box{
     border-bottom: none;
     flex-grow: 1;
@@ -313,7 +319,18 @@
     border-bottom: 1px solid red;
 }
 .menu{
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#menu1{
+    display: block;
     display: flex;
+}
+#menu2{
+    display: none;
+}
+#menu3{
     display: none;
 }
 .p8Pic{
